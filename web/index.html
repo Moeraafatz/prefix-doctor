@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>prefix-doctor — KV Prompt-Cache Debugger</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <svg viewBox="0 0 44 44" width="36" height="36" aria-hidden="true">
+        <rect x="1.5" y="1.5" width="41" height="41" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="2" />
+        <rect x="7" y="16" width="16" height="16" fill="#F7F7F7" stroke="#0A0A0A" stroke-width="1.8" />
+        <line x1="23" y1="24" x2="36" y2="24" stroke="#DC2626" stroke-width="2" stroke-dasharray="3 2" />
+        <circle cx="8" cy="8" r="2.2" fill="#16A34A" />
+        <circle cx="15" cy="8" r="2.2" fill="#CA8A04" />
+        <circle cx="22" cy="8" r="2.2" fill="#DC2626" />
+        <line x1="11" y1="24" x2="19" y2="24" stroke="#16A34A" stroke-width="2" />
+        <line x1="15" y1="20" x2="15" y2="28" stroke="#16A34A" stroke-width="2" />
+      </svg>
+      <div>
+        <h1>prefix-doctor</h1>
+        <p class="subtitle">KV Prompt-Cache Break Debugger · Write-Tax Economics · Lossless Canonicalizer</p>
+      </div>
+    </div>
+
+    <div class="controls">
+      <select id="provider-select" aria-label="Provider pricing profile">
+        <option value="anthropic_5m">Anthropic Claude (5m TTL · 1.25x write)</option>
+        <option value="anthropic_1h">Anthropic Claude (1h TTL · 2.0x write)</option>
+        <option value="anthropic_opus_5m">Anthropic Opus (5m TTL · $15/M)</option>
+        <option value="openai_std">OpenAI GPT (Auto · 1024 min)</option>
+        <option value="gemini_implicit">Google Gemini (Implicit)</option>
+        <option value="deepseek_auto">DeepSeek (Auto Prefix)</option>
+      </select>
+      <button id="btn-heal" class="btn btn-primary">Heal &amp; Replay Session</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- Scenario Selector Strip -->
+    <section class="panel compact">
+      <div class="scenario-bar">
+        <span class="bar-label">TEST CACHE-BUSTER SCENARIOS:</span>
+        <button class="btn btn-sm" data-demo="timestamp_buster">Timestamp + UUID in System</button>
+        <button class="btn btn-sm" data-demo="shuffled_mcp_tools">Shuffled MCP Tool Order</button>
+        <button class="btn btn-sm" data-demo="model_ping_pong">Mid-Session Model Switch</button>
+        <button class="btn btn-sm" data-demo="rag_system_mutation">RAG Mutating System Prompt</button>
+      </div>
+    </section>
+
+    <!-- KPI Telemetry Strip -->
+    <section class="kpi-grid">
+      <article class="kpi-card">
+        <div class="kpi-label">KV CACHE HEALTH</div>
+        <div class="kpi-value" id="kpi-grade">—</div>
+        <div class="kpi-meta" id="kpi-breakeven">Break-even threshold: 21.7%</div>
+      </article>
+      <article class="kpi-card">
+        <div class="kpi-label">EFFECTIVE HIT RATE</div>
+        <div class="kpi-value" id="kpi-hitrate">0%</div>
+        <div class="kpi-meta" id="kpi-tokens">0 read · 0 write tok</div>
+      </article>
+      <article class="kpi-card">
+        <div class="kpi-label">ACTUAL SESSION COST</div>
+        <div class="kpi-value" id="kpi-cost">$0.0000</div>
+        <div class="kpi-meta" id="kpi-optimal">Optimal: $0.0000</div>
+      </article>
+      <article class="kpi-card">
+        <div class="kpi-label">CACHE-BUSTER WASTE</div>
+        <div class="kpi-value" id="kpi-waste">$0.0000</div>
+        <div class="kpi-meta" id="kpi-savings-pct">0% recoverable</div>
+      </article>
+    </section>
+
+    <!-- Before vs After Heal Banner (shown after clicking Heal) -->
+    <section id="heal-banner" class="panel heal-banner hidden"></section>
+
+    <!-- Per-Turn Prefix Hit/Miss Visualizer -->
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <h2>Turn-by-Turn KV Prefix X-Ray</h2>
+          <p class="hint">Green = warm KV cache read (90% off) · Yellow = degraded/warmup · Red = busted prefix paying full/write-tax prefill</p>
+        </div>
+        <div class="legend">
+          <span><span class="dot dot-green"></span>CACHED</span>
+          <span><span class="dot dot-yellow"></span>DEGRADED</span>
+          <span><span class="dot dot-red"></span>BUSTED</span>
+        </div>
+      </div>
+
+      <div id="turn-bars" class="turn-bars"></div>
+    </section>
+
+    <!-- Static Prompt-Builder Code Auditor -->
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <h2>Prompt-Builder Source Code Auditor (JS / TS / Python)</h2>
+          <p class="hint">Paste your agent prompt builder code to catch cache-busting bugs before deploying to production.</p>
+        </div>
+        <button id="btn-audit-code" class="btn btn-primary">Audit Code</button>
+      </div>
+      <textarea id="code-input" rows="6">const systemPrompt = `Current time: ${new Date().toISOString()}
+Request ID: ${crypto.randomUUID()}
+You are a senior engineer.`;
+const res = await anthropic.messages.create({
+  model: "claude-sonnet-4",
+  tools: Object.values(mcpRegistry),
+  system: systemPrompt,
+  messages
+});</textarea>
+      <div id="code-result" class="code-result hidden"></div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

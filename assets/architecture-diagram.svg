@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 435" width="920" height="435" role="img" aria-label="prefix-doctor Architecture and 4-Scenario Healing Scorecard">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#0A0A0A" />
+    </marker>
+  </defs>
+
+  <rect width="920" height="435" fill="#FFFFFF" />
+  <rect x="6" y="6" width="908" height="423" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="2" />
+
+  <text x="24" y="34" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="800" fill="#0A0A0A">FIG 3. INSIDE THE CLINIC — LOSSLESS HEALING PIPELINE &amp; 4-SCENARIO LAB</text>
+  <text x="24" y="51" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#525252">Zero-dep local proxy + CLI + MCP tools · Preserves 100% of prompt semantics while freezing KV prefixes</text>
+
+  <!-- Pipeline Row -->
+  
+    <g>
+      <rect x="24" y="70" width="200" height="74" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.8" />
+      <rect x="24" y="70" width="200" height="24" fill="#F7F7F7" stroke="#0A0A0A" stroke-width="1.2" />
+      <circle cx="36" cy="82" r="4" fill="#CA8A04" stroke="#0A0A0A" stroke-width="0.9" />
+      <text x="46" y="86" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.2" font-weight="800" fill="#0A0A0A">1. WIRE SERIALIZER</text>
+      <text x="34" y="112" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.3" fill="#262626">[model]-&gt;[tools]-&gt;[sys]</text>
+      <text x="34" y="127" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.9" fill="#525252">Exact provider byte order</text>
+    </g>
+  
+    <g>
+      <rect x="248" y="70" width="200" height="74" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.8" />
+      <rect x="248" y="70" width="200" height="24" fill="#F7F7F7" stroke="#0A0A0A" stroke-width="1.2" />
+      <circle cx="260" cy="82" r="4" fill="#DC2626" stroke="#0A0A0A" stroke-width="0.9" />
+      <text x="270" y="86" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.2" font-weight="800" fill="#0A0A0A">2. LCP + RADIX TRIE</text>
+      <text x="258" y="112" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.3" fill="#262626">Pinpoints break byte</text>
+      <text x="258" y="127" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.9" fill="#525252">9 cache-buster classes</text>
+    </g>
+  
+    <g>
+      <rect x="472" y="70" width="200" height="74" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.8" />
+      <rect x="472" y="70" width="200" height="24" fill="#F7F7F7" stroke="#0A0A0A" stroke-width="1.2" />
+      <circle cx="484" cy="82" r="4" fill="#16A34A" stroke="#0A0A0A" stroke-width="0.9" />
+      <text x="494" y="86" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.2" font-weight="800" fill="#0A0A0A">3. CANONICALIZER</text>
+      <text x="482" y="112" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.3" fill="#262626">Sort tools[] &amp; JSON keys</text>
+      <text x="482" y="127" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.9" fill="#525252">Move clock/UUID to tail</text>
+    </g>
+  
+    <g>
+      <rect x="696" y="70" width="200" height="74" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.8" />
+      <rect x="696" y="70" width="200" height="24" fill="#F7F7F7" stroke="#0A0A0A" stroke-width="1.2" />
+      <circle cx="708" cy="82" r="4" fill="#16A34A" stroke="#0A0A0A" stroke-width="0.9" />
+      <text x="718" y="86" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.2" font-weight="800" fill="#0A0A0A">4. BREAKPOINT OPT</text>
+      <text x="706" y="112" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.3" fill="#262626">Inject cache_control</text>
+      <text x="706" y="127" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.9" fill="#525252">Verify write-tax p*</text>
+    </g>
+
+  <line x1="224" y1="107" x2="246" y2="107" stroke="#0A0A0A" stroke-width="1.6" marker-end="url(#arr)" />
+  <line x1="448" y1="107" x2="470" y2="107" stroke="#0A0A0A" stroke-width="1.6" marker-end="url(#arr)" />
+  <line x1="672" y1="107" x2="694" y2="107" stroke="#0A0A0A" stroke-width="1.6" marker-end="url(#arr)" />
+
+  <!-- Before vs After Wire Layout Strip -->
+  <rect x="24" y="164" width="424" height="84" fill="#F7F7F7" stroke="#0A0A0A" stroke-width="1.4" />
+  <circle cx="38" cy="180" r="4" fill="#DC2626" />
+  <text x="48" y="184" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="800" fill="#0A0A0A">BROKEN WIRE ORDER (0% KV CACHE HIT)</text>
+  <rect x="36" y="196" width="110" height="36" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.4" />
+  <text x="91" y="218" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#DC2626">tools (shuffled)</text>
+  <rect x="152" y="196" width="136" height="36" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.4" />
+  <text x="220" y="218" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#DC2626">sys + 15:44:07</text>
+  <rect x="294" y="196" width="142" height="36" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.4" />
+  <text x="365" y="218" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#DC2626">history (all cold!)</text>
+
+  <rect x="472" y="164" width="424" height="84" fill="#F7F7F7" stroke="#0A0A0A" stroke-width="1.4" />
+  <circle cx="486" cy="180" r="4" fill="#16A34A" />
+  <text x="496" y="184" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="800" fill="#0A0A0A">HEALED WIRE ORDER (90%+ KV CACHE HIT)</text>
+  <rect x="484" y="196" width="106" height="36" fill="#FFFFFF" stroke="#16A34A" stroke-width="1.6" />
+  <text x="537" y="218" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.5" font-weight="700" fill="#16A34A">sorted tools*</text>
+  <rect x="596" y="196" width="98" height="36" fill="#FFFFFF" stroke="#16A34A" stroke-width="1.6" />
+  <text x="645" y="218" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.5" font-weight="700" fill="#16A34A">frozen sys*</text>
+  <rect x="700" y="196" width="96" height="36" fill="#FFFFFF" stroke="#16A34A" stroke-width="1.6" />
+  <text x="748" y="218" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.5" font-weight="700" fill="#16A34A">history*</text>
+  <rect x="802" y="196" width="84" height="36" fill="#FFFFFF" stroke="#CA8A04" stroke-width="1.4" />
+  <text x="844" y="218" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8" fill="#0A0A0A">tail + clock</text>
+
+  <!-- 4-Scenario Measured Table -->
+  <rect x="24" y="266" width="872" height="148" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.5" />
+  <rect x="24" y="266" width="872" height="30" fill="#F7F7F7" stroke="#0A0A0A" stroke-width="1.1" />
+  <text x="38" y="285" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" fill="#0A0A0A">40-TURN BENCHMARK RESULTS ACROSS ALL 4 REAL-WORLD CACHE-BUSTER SCENARIOS (OPUS 5m TTL)</text>
+  
+      <circle cx="42" cy="321" r="3.5" fill="#16A34A" />
+      <text x="54" y="325" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.8" font-weight="700" fill="#0A0A0A">Timestamp + UUID in System</text>
+      <text x="310" y="325" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.6" fill="#DC2626">Before: 0% hit ($5.73)</text>
+      <text x="545" y="325" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.6" font-weight="800" fill="#16A34A">After: 98.9% hit ($0.75 | -87%)</text>
+      <circle cx="42" cy="345" r="3.5" fill="#16A34A" />
+      <text x="54" y="349" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.8" font-weight="700" fill="#0A0A0A">Shuffled MCP Tool Order</text>
+      <text x="310" y="349" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.6" fill="#DC2626">Before: 0% hit ($5.70)</text>
+      <text x="545" y="349" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.6" font-weight="800" fill="#16A34A">After: 99.8% hit ($0.71 | -87.6%)</text>
+      <circle cx="42" cy="369" r="3.5" fill="#16A34A" />
+      <text x="54" y="373" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.8" font-weight="700" fill="#0A0A0A">Dynamic RAG in System</text>
+      <text x="310" y="373" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.6" fill="#DC2626">Before: 0% hit ($5.72)</text>
+      <text x="545" y="373" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.6" font-weight="800" fill="#16A34A">After: 99.1% hit ($0.74 | -87.1%)</text>
+      <circle cx="42" cy="393" r="3.5" fill="#16A34A" />
+      <text x="54" y="397" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.8" font-weight="700" fill="#0A0A0A">Mid-Session Model Switch</text>
+      <text x="310" y="397" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.6" fill="#DC2626">Before: 59.3% hit ($2.44)</text>
+      <text x="545" y="397" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.6" font-weight="800" fill="#16A34A">After: 99.8% hit ($0.71 | -71%)</text>
+</svg>

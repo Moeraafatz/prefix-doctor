@@ -1,0 +1,7 @@
+node_modules/
+.prefix-doctor/
+*.log
+.DS_Store
+coverage/
+tmp/
+.env

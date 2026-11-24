@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 390" width="880" height="390" role="img" aria-label="Provider Write-Tax Break-Even Hit Rate Curve">
+  <rect width="880" height="390" fill="#FFFFFF" />
+  <rect x="6" y="6" width="868" height="378" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="2" />
+
+  <text x="26" y="34" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="800" fill="#0A0A0A">FIG 2. THE WRITE-TAX TRAP — BREAK-EVEN HIT RATE p* = (w - 1) / (w - r)</text>
+  <text x="26" y="52" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#525252">Effective input multiplier vs KV cache hit rate · Above 1.0x, caching actively LOSES money</text>
+
+  <line x1="74.0" y1="68" x2="74.0" y2="322" stroke="#D4D4D4" stroke-width="1" stroke-dasharray="2 4" /><text x="74.0" y="340" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">0%</text><line x1="226.4" y1="68" x2="226.4" y2="322" stroke="#D4D4D4" stroke-width="1" stroke-dasharray="2 4" /><text x="226.4" y="340" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">20%</text><line x1="378.8" y1="68" x2="378.8" y2="322" stroke="#D4D4D4" stroke-width="1" stroke-dasharray="2 4" /><text x="378.8" y="340" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">40%</text><line x1="531.2" y1="68" x2="531.2" y2="322" stroke="#D4D4D4" stroke-width="1" stroke-dasharray="2 4" /><text x="531.2" y="340" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">60%</text><line x1="683.6" y1="68" x2="683.6" y2="322" stroke="#D4D4D4" stroke-width="1" stroke-dasharray="2 4" /><text x="683.6" y="340" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">80%</text><line x1="836.0" y1="68" x2="836.0" y2="322" stroke="#D4D4D4" stroke-width="1" stroke-dasharray="2 4" /><text x="836.0" y="340" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">100%</text><text x="64" y="313.9" text-anchor="end" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">0.1x</text><text x="64" y="265.5" text-anchor="end" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">0.5x</text><text x="64" y="205.0" text-anchor="end" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">1.0x</text><text x="64" y="144.6" text-anchor="end" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">1.5x</text><text x="64" y="84.1" text-anchor="end" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">2.0x</text>
+
+  <!-- 1.0x Break-Even Line -->
+  <line x1="74" y1="201.0" x2="836" y2="201.0" stroke="#DC2626" stroke-width="1.6" stroke-dasharray="6 4" />
+  <text x="830" y="195.0" text-anchor="end" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.5" font-weight="800" fill="#DC2626">1.0x NO-CACHE LINE (ABOVE = YOU LOSE MONEY)</text>
+
+  <line x1="74" y1="68" x2="74" y2="322" stroke="#0A0A0A" stroke-width="2" />
+  <line x1="74" y1="322" x2="836" y2="322" stroke="#0A0A0A" stroke-width="2" />
+  <text x="22" y="195" transform="rotate(-90 22 195)" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" fill="#0A0A0A">EFFECTIVE COST MULTIPLIER</text>
+
+  <!-- Curves -->
+  <path d="M74.0,80.1 L112.1,91.6 L150.2,103.1 L188.3,114.6 L226.4,126.1 L264.5,137.5 L302.6,149.0 L340.7,160.5 L378.8,172.0 L416.9,183.5 L455.0,195.0 L493.1,206.5 L531.2,218.0 L569.3,229.5 L607.4,241.0 L645.5,252.5 L683.6,263.9 L721.7,275.4 L759.8,286.9 L797.9,298.4 L836.0,309.9" fill="none" stroke="#DC2626" stroke-width="2.4" />
+  <path d="M74.0,170.8 L112.1,177.8 L150.2,184.7 L188.3,191.7 L226.4,198.6 L264.5,205.6 L302.6,212.5 L340.7,219.5 L378.8,226.4 L416.9,233.4 L455.0,240.4 L493.1,247.3 L531.2,254.3 L569.3,261.2 L607.4,268.2 L645.5,275.1 L683.6,282.1 L721.7,289.0 L759.8,296.0 L797.9,302.9 L836.0,309.9" fill="none" stroke="#CA8A04" stroke-width="2.4" />
+  <path d="M74.0,201.0 L112.1,206.5 L150.2,211.9 L188.3,217.4 L226.4,222.8 L264.5,228.3 L302.6,233.7 L340.7,239.1 L378.8,244.6 L416.9,250.0 L455.0,255.5 L493.1,260.9 L531.2,266.4 L569.3,271.8 L607.4,277.2 L645.5,282.7 L683.6,288.1 L721.7,293.6 L759.8,299.0 L797.9,304.5 L836.0,309.9" fill="none" stroke="#16A34A" stroke-width="2.4" />
+
+  <!-- Break-even intersection dots -->
+  <circle cx="239.7" cy="201.0" r="5" fill="#CA8A04" stroke="#0A0A0A" stroke-width="1.4" />
+  <circle cx="475.0" cy="201.0" r="5" fill="#DC2626" stroke="#0A0A0A" stroke-width="1.4" />
+
+  <!-- Crisp Zero-Overlap Callouts -->
+  <g transform="translate(500, 82)">
+    <rect x="0" y="0" width="320" height="36" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.3" />
+    <circle cx="12" cy="13" r="3.5" fill="#DC2626" />
+    <text x="22" y="16" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.5" font-weight="800" fill="#0A0A0A">Anthropic 1h TTL (2.0x write): p* = 52.6%</text>
+    <text x="10" y="30" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.8" fill="#525252">Never turn on 1h TTL on volatile prefixes!</text>
+  </g>
+
+  <g transform="translate(148, 250)">
+    <rect x="0" y="0" width="290" height="36" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.3" />
+    <circle cx="12" cy="13" r="3.5" fill="#CA8A04" />
+    <text x="22" y="16" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.5" font-weight="800" fill="#0A0A0A">Anthropic 5m TTL (1.25x): p* = 21.7%</text>
+    <text x="10" y="30" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.8" fill="#525252">Safe once hit rate crosses 22% (2nd reuse)</text>
+  </g>
+
+  <g transform="translate(546, 250)">
+    <rect x="0" y="0" width="274" height="36" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.3" />
+    <circle cx="12" cy="13" r="3.5" fill="#16A34A" />
+    <text x="22" y="16" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.5" font-weight="800" fill="#0A0A0A">OpenAI / Gemini / DeepSeek: p* = 0%</text>
+    <text x="10" y="30" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.8" fill="#525252">Zero write surcharge; 0.1x read discount</text>
+  </g>
+
+  <!-- Legend -->
+  <line x1="20" y1="356" x2="860" y2="356" stroke="#D4D4D4" stroke-width="1" />
+  <circle cx="32" cy="372" r="4" fill="#DC2626" />
+  <text x="42" y="376" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#0A0A0A">Anthropic 1h (2.0x write)</text>
+  <circle cx="242" cy="372" r="4" fill="#CA8A04" />
+  <text x="252" y="376" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#0A0A0A">Anthropic 5m (1.25x write)</text>
+  <circle cx="468" cy="372" r="4" fill="#16A34A" />
+  <text x="478" y="376" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="700" fill="#0A0A0A">OpenAI / Gemini / DeepSeek (1.0x write)</text>
+</svg>

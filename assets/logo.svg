@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" width="920" height="320" role="img" aria-label="prefix-doctor logo: KV Cache ice cube rescued from a blowtorch timestamp">
+  <rect width="920" height="320" fill="#FFFFFF" />
+  <rect x="8" y="8" width="904" height="304" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="2.5" />
+
+  <!-- Top Instrumentation Strip -->
+  <line x1="8" y1="42" x2="912" y2="42" stroke="#0A0A0A" stroke-width="1.5" />
+  <circle cx="28" cy="25" r="5" fill="#16A34A" stroke="#0A0A0A" stroke-width="1.2" />
+  <circle cx="46" cy="25" r="5" fill="#CA8A04" stroke="#0A0A0A" stroke-width="1.2" />
+  <circle cx="64" cy="25" r="5" fill="#DC2626" stroke="#0A0A0A" stroke-width="1.2" />
+  <text x="84" y="29" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" fill="#0A0A0A">KV PREFIX CLINIC // STOP PAYING 10x BECAUSE OF ONE TIMESTAMP</text>
+  <text x="896" y="29" text-anchor="end" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#525252">v1.0.0 · ZERO DEPS · ZERO NEON</text>
+
+  <!-- LEFT BRAND BLOCK -->
+  <g transform="translate(28, 62)">
+    <text x="0" y="42" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="37" font-weight="800" letter-spacing="-1.2" fill="#0A0A0A">prefix-doctor</text>
+    <line x1="0" y1="56" x2="312" y2="56" stroke="#0A0A0A" stroke-width="2" />
+    <text x="0" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#262626">KV Prompt-Cache Break Debugger</text>
+    <text x="0" y="99" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#525252">Pinpoints the exact byte busting your 90%-off</text>
+    <text x="0" y="115" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#525252">prefix cache and heals requests losslessly.</text>
+
+    <g transform="translate(0, 134)">
+      <rect x="0" y="0" width="312" height="24" fill="#F7F7F7" stroke="#0A0A0A" stroke-width="1.2" />
+      <circle cx="14" cy="12" r="4" fill="#16A34A" />
+      <text x="26" y="16" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.2" font-weight="700" fill="#0A0A0A">-87% COST · HIT 0% -&gt; 98.9%</text>
+
+      <rect x="0" y="31" width="312" height="24" fill="#F7F7F7" stroke="#0A0A0A" stroke-width="1.2" />
+      <circle cx="14" cy="43" r="4" fill="#CA8A04" />
+      <text x="26" y="47" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.2" font-weight="700" fill="#0A0A0A">WRITE-TAX BREAK-EVEN + 9 BUSTER CLASSES</text>
+
+      <rect x="0" y="62" width="312" height="24" fill="#F7F7F7" stroke="#0A0A0A" stroke-width="1.2" />
+      <circle cx="14" cy="74" r="4" fill="#DC2626" />
+      <text x="26" y="78" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.2" font-weight="700" fill="#0A0A0A">ANTHROPIC · OPENAI · GEMINI · DEEPSEEK</text>
+    </g>
+  </g>
+
+  <!-- RIGHT ILLUSTRATION: Melting "90% OFF KV CACHE" Ice Cube vs Mischievous Timestamp Clock -->
+  <g transform="translate(362, 58)">
+    <rect x="0" y="0" width="528" height="236" fill="#F7F7F7" stroke="#0A0A0A" stroke-width="1.6" />
+
+    <!-- Top Diagnosis Speech Bubble -->
+    <rect x="16" y="12" width="496" height="36" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.4" />
+    <circle cx="30" cy="30" r="4.5" fill="#16A34A" />
+    <text x="42" y="27" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.8" font-weight="800" fill="#0A0A0A">DOCTOR'S NOTE: "MOVE THE CLOCK TO THE TAIL, NOT SYSTEM."</text>
+    <text x="42" y="41" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.8" fill="#525252">1 volatile timestamp at byte 14 melted 90% of a 40-turn KV cache.</text>
+
+    <!-- LEFT INSIDE SCENE: Melting KV Cache Ice Cube -->
+    <g transform="translate(34, 72)">
+      <!-- Puddle under ice cube -->
+      <ellipse cx="78" cy="126" rx="74" ry="12" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.6" />
+      <text x="78" y="129" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8" font-weight="700" fill="#DC2626">1.25x WRITE-TAX PUDDLE ($$$)</text>
+
+      <!-- Isometric Ice Cube (Crisp B&W ink!) -->
+      <polygon points="36,36 106,36 124,20 54,20" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="2" />
+      <rect x="36" y="36" width="70" height="72" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="2" />
+      <polygon points="106,36 124,20 124,92 106,108" fill="#F7F7F7" stroke="#0A0A0A" stroke-width="2" />
+      <!-- Melting drips -->
+      <path d="M44,108 Q44,119 48,119 Q52,119 52,108" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.4" />
+      <path d="M90,108 Q90,117 94,117 Q98,117 98,108" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.4" />
+      <!-- Worried face on Ice Cube -->
+      <circle cx="58" cy="60" r="2.8" fill="#0A0A0A" />
+      <circle cx="84" cy="60" r="2.8" fill="#0A0A0A" />
+      <path d="M62,74 Q71,68 80,74" fill="none" stroke="#0A0A0A" stroke-width="1.8" />
+      <text x="71" y="90" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.5" font-weight="800" fill="#0A0A0A">90% OFF</text>
+      <text x="71" y="101" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8" font-weight="700" fill="#525252">KV CACHE</text>
+
+      <!-- Thermometer Gauge -->
+      <rect x="-12" y="28" width="12" height="76" rx="6" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.6" />
+      <circle cx="-6" cy="98" r="8" fill="#DC2626" stroke="#0A0A0A" stroke-width="1.6" />
+      <rect x="-9" y="42" width="6" height="52" fill="#DC2626" />
+    </g>
+
+    <!-- CENTER: Flame / Cache-Bust Beam from Clock to Ice Cube -->
+    <g transform="translate(178, 126)">
+      <polygon points="108,8 20,-10 38,8 6,16 36,24 22,38 108,20" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.8" />
+      <polygon points="102,11 46,2 56,11 36,16 56,21 48,28 102,17" fill="#CA8A04" stroke="#DC2626" stroke-width="1.1" />
+      <text x="64" y="-14" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.5" font-weight="800" fill="#DC2626">BYTE 14 DIVERGENCE!</text>
+    </g>
+
+    <!-- RIGHT INSIDE SCENE: Mischievous Alarm Clock holding Blowtorch -->
+    <g transform="translate(310, 74)">
+      <!-- Clock Body -->
+      <rect x="28" y="32" width="152" height="78" rx="8" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="2.2" />
+      <!-- Alarm bells on top -->
+      <path d="M46,32 C46,16 74,16 74,32" fill="#F7F7F7" stroke="#0A0A0A" stroke-width="2" />
+      <path d="M134,32 C134,16 162,16 162,32" fill="#F7F7F7" stroke="#0A0A0A" stroke-width="2" />
+      <!-- Clock LCD screen -->
+      <rect x="42" y="46" width="124" height="34" fill="#0A0A0A" />
+      <circle cx="52" cy="56" r="3" fill="#DC2626" />
+      <text x="108" y="68" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="800" fill="#FFFFFF">15:44:07</text>
+      <!-- Evil little eyebrows / smirk -->
+      <text x="104" y="98" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="8.5" font-weight="700" fill="#0A0A0A">system: Current time</text>
+      <!-- Blowtorch nozzle pointing left -->
+      <rect x="-12" y="58" width="40" height="14" fill="#262626" stroke="#0A0A0A" stroke-width="1.6" />
+      <polygon points="-24,54 -12,58 -12,72 -24,76" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.6" />
+      <!-- Little feet -->
+      <rect x="52" y="110" width="18" height="12" fill="#0A0A0A" />
+      <rect x="138" y="110" width="18" height="12" fill="#0A0A0A" />
+    </g>
+
+    <!-- Bottom Caption Strip -->
+    <circle cx="22" cy="222" r="4" fill="#DC2626" />
+    <text x="32" y="226" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.3" font-weight="700" fill="#0A0A0A">BEFORE: $5.73 (0% HIT)</text>
+    <circle cx="236" cy="222" r="4" fill="#16A34A" />
+    <text x="246" y="226" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.3" font-weight="800" fill="#0A0A0A">AFTER HEAL: $0.75 (98.9% HIT · -87%)</text>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+{
+  "name": "prefix-doctor",
+  "version": "1.0.0",
+  "description": "Zero-dependency KV Prompt-Cache Break Debugger, Prefix Canonicalizer & Live Cost-Saving Proxy for AI coding agents (Claude Code, Codex CLI, Cursor, Anthropic, OpenAI, Gemini, DeepSeek). Pinpoints the exact byte/token that busted your 90%-off KV cache and fixes it automatically.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "bin": {
+    "prefix-doctor": "./bin/prefix-doctor.js"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./analyzer": "./src/core/analyzer.js",
+    "./canonicalizer": "./src/core/canonicalizer.js",
+    "./pricing": "./src/core/pricing.js",
+    "./proxy": "./src/proxy/server.js",
+    "./mcp": "./src/mcp/server.js"
+  },
+  "scripts": {
+    "start": "node ./bin/prefix-doctor.js ui",
+    "proxy": "node ./bin/prefix-doctor.js proxy",
+    "mcp": "node ./bin/prefix-doctor.js mcp",
+    "test": "node --test test/*.test.js",
+    "bench": "node benchmarks/run.mjs",
+    "assets": "node scripts/generate-assets.mjs"
+  },
+  "keywords": [
+    "ai-agents",
+    "prompt-caching",
+    "kv-cache",
+    "llm-cost-optimization",
+    "anthropic",
+    "openai",
+    "gemini",
+    "claude-code",
+    "codex",
+    "cursor",
+    "mcp",
+    "proxy",
+    "prefix-caching",
+    "token-economics"
+  ],
+  "author": "RAFBUG <128036625+Moeraafatz@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Moeraafatz/prefix-doctor.git"
+  },
+  "homepage": "https://github.com/Moeraafatz/prefix-doctor#readme"
+}

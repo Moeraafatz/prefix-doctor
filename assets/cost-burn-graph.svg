@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 430" width="880" height="430" role="img" aria-label="40-Turn Coding Agent Cumulative API Cost Before vs After prefix-doctor">
+  <rect width="880" height="430" fill="#FFFFFF" />
+  <rect x="6" y="6" width="868" height="418" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="2" />
+
+  <text x="26" y="34" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="800" fill="#0A0A0A">FIG 1. THE CLOCK BUG TAX — 40-TURN CUMULATIVE API SPEND</text>
+  <text x="26" y="52" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#525252">Measured via benchmarks/run.mjs · Anthropic Opus (5m TTL) ($15/M input, 1.25x write, 0.10x read)</text>
+
+  <line x1="78" y1="358.0" x2="836" y2="358.0" stroke="#D4D4D4" stroke-width="1" /><text x="68" y="362.0" text-anchor="end" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">$0.00</text><line x1="78" y1="300.0" x2="836" y2="300.0" stroke="#D4D4D4" stroke-width="1" /><text x="68" y="304.0" text-anchor="end" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">$1.30</text><line x1="78" y1="242.0" x2="836" y2="242.0" stroke="#D4D4D4" stroke-width="1" /><text x="68" y="246.0" text-anchor="end" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">$2.60</text><line x1="78" y1="184.0" x2="836" y2="184.0" stroke="#D4D4D4" stroke-width="1" /><text x="68" y="188.0" text-anchor="end" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">$3.90</text><line x1="78" y1="126.0" x2="836" y2="126.0" stroke="#D4D4D4" stroke-width="1" /><text x="68" y="130.0" text-anchor="end" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">$5.20</text><line x1="78" y1="68.0" x2="836" y2="68.0" stroke="#D4D4D4" stroke-width="1" /><text x="68" y="72.0" text-anchor="end" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">$6.50</text><line x1="78.0" y1="68" x2="78.0" y2="358" stroke="#D4D4D4" stroke-width="1" stroke-dasharray="2 4" /><text x="78.0" y="376" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">Turn 1</text><line x1="252.9" y1="68" x2="252.9" y2="358" stroke="#D4D4D4" stroke-width="1" stroke-dasharray="2 4" /><text x="252.9" y="376" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">Turn 10</text><line x1="447.3" y1="68" x2="447.3" y2="358" stroke="#D4D4D4" stroke-width="1" stroke-dasharray="2 4" /><text x="447.3" y="376" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">Turn 20</text><line x1="641.6" y1="68" x2="641.6" y2="358" stroke="#D4D4D4" stroke-width="1" stroke-dasharray="2 4" /><text x="641.6" y="376" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">Turn 30</text><line x1="836.0" y1="68" x2="836.0" y2="358" stroke="#D4D4D4" stroke-width="1" stroke-dasharray="2 4" /><text x="836.0" y="376" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#525252">Turn 40</text>
+
+  <line x1="78" y1="68" x2="78" y2="358" stroke="#0A0A0A" stroke-width="2" />
+  <line x1="78" y1="358" x2="836" y2="358" stroke="#0A0A0A" stroke-width="2" />
+  <text x="22" y="213" transform="rotate(-90 22 213)" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" fill="#0A0A0A">CUMULATIVE INPUT COST ($ USD)</text>
+
+  <!-- Broken Cache (RED - actually HIGHER than no cache because of 1.25x write tax!) -->
+  <path d="M78.0,353.8 L97.4,349.4 L116.9,344.9 L136.3,340.4 L155.7,335.7 L175.2,330.9 L194.6,326.0 L214.1,320.9 L233.5,315.8 L252.9,310.6 L272.4,305.2 L291.8,299.8 L311.2,294.2 L330.7,288.5 L350.1,282.7 L369.5,276.8 L389.0,270.8 L408.4,264.7 L427.8,258.5 L447.3,252.1 L466.7,245.7 L486.2,239.1 L505.6,232.4 L525.0,225.7 L544.5,218.8 L563.9,211.8 L583.3,204.7 L602.8,197.5 L622.2,190.1 L641.6,182.7 L661.1,175.1 L680.5,167.5 L699.9,159.7 L719.4,151.8 L738.8,143.8 L758.3,135.7 L777.7,127.5 L797.1,119.2 L816.6,110.8 L836.0,102.2" fill="none" stroke="#DC2626" stroke-width="2.6" />
+  <circle cx="836.0" cy="102.2" r="5" fill="#DC2626" stroke="#0A0A0A" stroke-width="1.2" />
+
+  <!-- No Cache Baseline (YELLOW dashed) -->
+  <path d="M78.0,354.6 L97.4,351.1 L116.9,347.4 L136.3,343.7 L155.7,339.9 L175.2,335.9 L194.6,331.8 L214.1,327.7 L233.5,323.4 L252.9,319.0 L272.4,314.5 L291.8,309.8 L311.2,305.1 L330.7,300.3 L350.1,295.3 L369.5,290.3 L389.0,285.1 L408.4,279.8 L427.8,274.4 L447.3,268.9 L466.7,263.3 L486.2,257.6 L505.6,251.8 L525.0,245.8 L544.5,239.8 L563.9,233.6 L583.3,227.3 L602.8,221.0 L622.2,214.5 L641.6,207.9 L661.1,201.2 L680.5,194.3 L699.9,187.4 L719.4,180.4 L738.8,173.2 L758.3,166.0 L777.7,158.6 L797.1,151.1 L816.6,143.5 L836.0,135.8" fill="none" stroke="#CA8A04" stroke-width="2.2" stroke-dasharray="7 4" />
+  <circle cx="836.0" cy="135.8" r="5" fill="#CA8A04" stroke="#0A0A0A" stroke-width="1.2" />
+
+  <!-- prefix-doctor Healed (GREEN) -->
+  <path d="M78.0,353.7 L97.4,353.2 L116.9,352.6 L136.3,352.1 L155.7,351.5 L175.2,351.0 L194.6,350.4 L214.1,349.8 L233.5,349.2 L252.9,348.6 L272.4,347.9 L291.8,347.3 L311.2,346.6 L330.7,346.0 L350.1,345.3 L369.5,344.6 L389.0,343.9 L408.4,343.2 L427.8,342.5 L447.3,341.8 L466.7,341.0 L486.2,340.3 L505.6,339.5 L525.0,338.7 L544.5,337.9 L563.9,337.1 L583.3,336.3 L602.8,335.5 L622.2,334.6 L641.6,333.8 L661.1,332.9 L680.5,332.1 L699.9,331.2 L719.4,330.3 L738.8,329.4 L758.3,328.5 L777.7,327.5 L797.1,326.6 L816.6,325.6 L836.0,324.7" fill="none" stroke="#16A34A" stroke-width="2.8" />
+  <circle cx="836.0" cy="324.7" r="5" fill="#16A34A" stroke="#0A0A0A" stroke-width="1.2" />
+
+  <!-- Zero-Overlap Callouts -->
+  <g>
+    <line x1="364" y1="166" x2="505.6" y2="232.4" stroke="#0A0A0A" stroke-width="1.2" stroke-dasharray="2 2" />
+    <rect x="122" y="126" width="268" height="40" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.3" />
+    <circle cx="134" cy="140" r="3.5" fill="#DC2626" />
+    <text x="144" y="143" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.5" font-weight="800" fill="#0A0A0A">WRITE-TAX LOSS ZONE (1.25x)</text>
+    <text x="132" y="158" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#525252">Broken cache costs 25% MORE than no cache!</text>
+  </g>
+
+  <g>
+    <line x1="772" y1="118" x2="831.0" y2="102.2" stroke="#0A0A0A" stroke-width="1.2" stroke-dasharray="2 2" />
+    <rect x="526" y="76" width="246" height="40" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.4" />
+    <circle cx="538" cy="91" r="3.5" fill="#DC2626" />
+    <text x="548" y="94" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="800" fill="#0A0A0A">BROKEN PREFIX: $5.73</text>
+    <text x="536" y="109" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#525252">0% hit rate · vs $4.98 uncached</text>
+  </g>
+
+  <g>
+    <line x1="484" y1="308" x2="563.9" y2="337.1" stroke="#16A34A" stroke-width="1.4" stroke-dasharray="3 2" />
+    <rect x="296" y="266" width="318" height="42" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.6" />
+    <circle cx="308" cy="282" r="4" fill="#16A34A" />
+    <text x="319" y="285" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.2" font-weight="800" fill="#0A0A0A">prefix-doctor HEALED: $0.75 (-87%)</text>
+    <text x="306" y="300" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#525252">98.9% KV hit rate · Saved $4.99 on 1 session</text>
+  </g>
+
+  <!-- Bottom Legend -->
+  <line x1="20" y1="394" x2="860" y2="394" stroke="#D4D4D4" stroke-width="1" />
+  <circle cx="32" cy="410" r="4.5" fill="#DC2626" />
+  <text x="42" y="414" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.2" fill="#0A0A0A">Broken Prefix ($5.73)</text>
+  <circle cx="286" cy="410" r="4.5" fill="#CA8A04" />
+  <text x="296" y="414" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.2" fill="#0A0A0A">No Caching ($4.98)</text>
+  <circle cx="526" cy="410" r="4.5" fill="#16A34A" />
+  <text x="536" y="414" font-family="'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.2" font-weight="700" fill="#0A0A0A">prefix-doctor Healed ($0.75 · -87%)</text>
+</svg>
